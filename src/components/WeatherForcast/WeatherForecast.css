@@ -1,0 +1,23 @@
+/* src/components/WeatherForecast/WeatherForecast.css */
+body {
+    margin: 300px;
+}
+
+section {
+    display: flex;
+}
+
+section .weather {
+    border: 1px solid #ccc;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.weather span {
+    font-weight: bold;
+}
+
+.image {
+    width: 200px;
+}
